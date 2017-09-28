@@ -11,5 +11,5 @@ import Foundation
 print(condog("onjo", prefix: "B", suffix: "ur"));
 print(cleanHobbits(["Frodo", "Aragorn", "Boromir", "Legolas", "Gimli", "Gandalf", "Samsaget"]));
 
-NSRunLoop.mainRunLoop().run();
+RunLoop.main.run();
 

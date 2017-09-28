@@ -9,7 +9,7 @@
 import Foundation
 
 
-func condog(str: String, prefix: Character, suffix: String) -> String{
-    return [String(prefix), str, suffix].joinWithSeparator("")
+func condog(_ str: String, prefix: Character, suffix: String) -> String{
+    return [String(prefix), str, suffix].joined(separator: "")
 };
 

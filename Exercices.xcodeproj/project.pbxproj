@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AAD27FC01F73EE1F003329B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD27FBF1F73EE1F003329B4 /* main.swift */; };
-		AAD27FC81F73EE48003329B4 /* Exercice1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD27FC71F73EE48003329B4 /* Exercice1.swift */; settings = {ASSET_TAGS = (); }; };
-		AAD27FCA1F73F58D003329B4 /* Exercice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD27FC91F73F58D003329B4 /* Exercice2.swift */; settings = {ASSET_TAGS = (); }; };
+		AAD27FC81F73EE48003329B4 /* Exercice1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD27FC71F73EE48003329B4 /* Exercice1.swift */; };
+		AAD27FCA1F73F58D003329B4 /* Exercice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD27FC91F73F58D003329B4 /* Exercice2.swift */; };
+		CA85012C1F7CE8B700D7B15F /* Exercice3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85012B1F7CE8B700D7B15F /* Exercice3.swift */; };
+		CA85012E1F7D086100D7B15F /* Exercice4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85012D1F7D086100D7B15F /* Exercice4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		AAD27FBF1F73EE1F003329B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AAD27FC71F73EE48003329B4 /* Exercice1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice1.swift; sourceTree = "<group>"; };
 		AAD27FC91F73F58D003329B4 /* Exercice2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice2.swift; sourceTree = "<group>"; };
+		CA85012B1F7CE8B700D7B15F /* Exercice3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice3.swift; sourceTree = "<group>"; };
+		CA85012D1F7D086100D7B15F /* Exercice4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			children = (
 				AAD27FC71F73EE48003329B4 /* Exercice1.swift */,
 				AAD27FC91F73F58D003329B4 /* Exercice2.swift */,
+				CA85012B1F7CE8B700D7B15F /* Exercice3.swift */,
+				CA85012D1F7D086100D7B15F /* Exercice4.swift */,
 			);
 			name = Exercices;
 			sourceTree = "<group>";
@@ -107,6 +113,7 @@
 				TargetAttributes = {
 					AAD27FBB1F73EE1F003329B4 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -133,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD27FC01F73EE1F003329B4 /* main.swift in Sources */,
+				CA85012E1F7D086100D7B15F /* Exercice4.swift in Sources */,
+				CA85012C1F7CE8B700D7B15F /* Exercice3.swift in Sources */,
 				AAD27FCA1F73F58D003329B4 /* Exercice2.swift in Sources */,
 				AAD27FC81F73EE48003329B4 /* Exercice1.swift in Sources */,
 			);
@@ -223,6 +232,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -230,6 +240,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

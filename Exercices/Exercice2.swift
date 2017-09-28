@@ -9,7 +9,8 @@
 import Foundation
 
 
-func cleanHobbits(var arr: Array<String>) -> (String, String, Array<String>, Int){
+func cleanHobbits(_ arr: Array<String>) -> (String, String, Array<String>, Int){
+    var arr = arr
     let first = arr[0]
     let last = arr.last
     
@@ -18,7 +19,7 @@ func cleanHobbits(var arr: Array<String>) -> (String, String, Array<String>, Int
     
     var reversedNames = [String]()
     
-    for arrayIndex in (arr.count - 1).stride(through: 0, by: -1) {
+    for arrayIndex in stride(from: (arr.count - 1), through: 0, by: -1) {
         reversedNames.append(arr[arrayIndex])
     }
     
