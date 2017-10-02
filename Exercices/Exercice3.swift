@@ -89,7 +89,7 @@ class Person : Existence{
         self.lastname = lastname
         self.gender = gender
         self.email = Email(email: email)
-        super.init(date: "1997-04-02".toDate(format: "YYYY-MM-DD"))
+        super.init(date: date.toDate(format: "YYYY-MM-DD"))
     }
     
     init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: Date){
@@ -129,3 +129,5 @@ class Person : Existence{
     }
     
 }
+
+var person = Person(firstname: "Emir", lastname: "Azaiez", gender: Person.Gender.Male, email: "emir.azaiezsahli@gmail.com" , birthdate: (date: "1900-01-11", format: String))
