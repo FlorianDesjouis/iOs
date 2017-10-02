@@ -59,6 +59,8 @@ class Existence {
     var age: Int
     
     init(date: Date?) {
+        self.birthday  = date!
+        self.age = birthday.getYearDifferenceFrom(date: Date())
     }
     
     func willProbablyDieSoon() -> Bool{
@@ -71,7 +73,7 @@ class Existence {
 }
 
 
-class Person {
+class Person : Existence{
     
     
     enum Gender: String {
@@ -83,10 +85,19 @@ class Person {
     }
     
     init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: (date: String, format: String)){
+        self.firstname = firstname
+        self.lastname = lastname
+        self.gender = gender
+        self.email = Email(email: email)
+        super.init(date: "1997-04-02".toDate(format: "YYYY-MM-DD"))
     }
     
     init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: Date){
-        
+        self.firstname = firstname
+        self.lastname = lastname
+        self.gender = gender
+        self.email = Email(email: email)
+        super.init(date: birthdate)
     }
     
     var firstname: String;
@@ -111,7 +122,7 @@ class Person {
         print("email valid : \(self.email.isValid())")
         print("email : \(self.email)")
         
-        print("birthdate : \(self.birthdate)")
+        print("birthdate : \(self.birthday)")
         print("age : \(self.age)")
         print("will die soon : \(self.willProbablyDieSoon())")
         

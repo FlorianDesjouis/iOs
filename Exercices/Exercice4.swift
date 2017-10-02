@@ -28,8 +28,8 @@ class ApiManager {
         }.resume()
     }
     
-    getRandomUser(completion){ data in
-        print(data)
-    }
+//   getRandomUser(completion){ data in
+//       print(data)
+//    }
 
 }
