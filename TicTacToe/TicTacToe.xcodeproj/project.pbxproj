@@ -13,6 +13,9 @@
 		FAB2931A1FA0856B008EA1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB293191FA0856B008EA1D7 /* Assets.xcassets */; };
 		FAB2931D1FA0856B008EA1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB2931B1FA0856B008EA1D7 /* LaunchScreen.storyboard */; };
 		FAB293251FA08E3B008EA1D7 /* PlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB293241FA08E3B008EA1D7 /* PlayController.swift */; };
+		FAB2932D1FA0A251008EA1D7 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB2932C1FA0A251008EA1D7 /* board.png */; };
+		FAB2932F1FA0A25E008EA1D7 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB2932E1FA0A25E008EA1D7 /* cross.png */; };
+		FAB293311FA0A266008EA1D7 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB293301FA0A266008EA1D7 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FAB2931C1FA0856B008EA1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB2931E1FA0856B008EA1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB293241FA08E3B008EA1D7 /* PlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayController.swift; sourceTree = "<group>"; };
+		FAB2932C1FA0A251008EA1D7 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		FAB2932E1FA0A25E008EA1D7 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		FAB293301FA0A266008EA1D7 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		FAB293111FA0856B008EA1D7 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				FAB2932C1FA0A251008EA1D7 /* board.png */,
+				FAB2932E1FA0A25E008EA1D7 /* cross.png */,
+				FAB293301FA0A266008EA1D7 /* nought.png */,
 				FAB293121FA0856B008EA1D7 /* AppDelegate.swift */,
 				FAB293141FA0856B008EA1D7 /* ViewController.swift */,
 				FAB293161FA0856B008EA1D7 /* Main.storyboard */,
@@ -126,6 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB2932F1FA0A25E008EA1D7 /* cross.png in Resources */,
+				FAB2932D1FA0A251008EA1D7 /* board.png in Resources */,
+				FAB293311FA0A266008EA1D7 /* nought.png in Resources */,
 				FAB2931D1FA0856B008EA1D7 /* LaunchScreen.storyboard in Resources */,
 				FAB2931A1FA0856B008EA1D7 /* Assets.xcassets in Resources */,
 				FAB293181FA0856B008EA1D7 /* Main.storyboard in Resources */,
