@@ -18,7 +18,12 @@ class LastTableViewController : UITableViewController {
         data.append(["dead": "Player 1", "winner": "Player 2"])
         data.append(["dead": "Player 1", "winner": "Player 2"])
         data.append(["dead": "Player 2", "winner": "Player 1"])
+        
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(data, forKey: "lastkill")
+        userDefaults.array(forKey: "lastkill")
     }
+    
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
