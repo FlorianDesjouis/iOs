@@ -10,6 +10,20 @@ import UIKit
 
 class PlayController: UIViewController {
 
+    var activePlayer = 1
+    
+    @IBAction func pressButton(_ sender: AnyObject) {
+        
+        if(activePlayer == 1){
+            sender.setImage(UIImage(named: "cross.png"), for: UIControlState())
+            activePlayer = 2
+        }else{
+            sender.setImage(UIImage(named: "nought.png"), for: UIControlState())
+            activePlayer = 1
+        }
+        
+    }
+    
     @IBAction func dismissBtnPressed(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)    }
     

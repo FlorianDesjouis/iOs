@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5934BD1FB07A69009ACC0A /* LastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5934BC1FB07A69009ACC0A /* LastTableViewController.swift */; };
 		FAB293131FA0856B008EA1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB293121FA0856B008EA1D7 /* AppDelegate.swift */; };
 		FAB293151FA0856B008EA1D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB293141FA0856B008EA1D7 /* ViewController.swift */; };
 		FAB293181FA0856B008EA1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB293161FA0856B008EA1D7 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA5934BC1FB07A69009ACC0A /* LastTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastTableViewController.swift; sourceTree = "<group>"; };
 		FAB2930F1FA0856B008EA1D7 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB293121FA0856B008EA1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB293141FA0856B008EA1D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				FAB2931B1FA0856B008EA1D7 /* LaunchScreen.storyboard */,
 				FAB2931E1FA0856B008EA1D7 /* Info.plist */,
 				FAB293241FA08E3B008EA1D7 /* PlayController.swift */,
+				AA5934BC1FB07A69009ACC0A /* LastTableViewController.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				FAB293151FA0856B008EA1D7 /* ViewController.swift in Sources */,
 				FAB293251FA08E3B008EA1D7 /* PlayController.swift in Sources */,
 				FAB293131FA0856B008EA1D7 /* AppDelegate.swift in Sources */,
+				AA5934BD1FB07A69009ACC0A /* LastTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +319,7 @@
 				FAB293231FA0856B008EA1D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
