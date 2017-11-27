@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'TicTacToe' do
+pod 'Socket.IO-Client-Swift', '~> 13.0.0'
+end

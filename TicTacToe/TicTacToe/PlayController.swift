@@ -21,6 +21,8 @@ class PlayController: UIViewController {
             sender.setImage(UIImage(named: "nought.png"), for: UIControlState())
             activePlayer = 1
         }
+        let disableMyButton = sender as? UIButton
+        disableMyButton?.isEnabled = false
         
     }
     

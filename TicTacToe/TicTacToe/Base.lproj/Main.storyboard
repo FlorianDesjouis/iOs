@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h3B-IH-JzT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G17023" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h3B-IH-JzT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -67,7 +67,7 @@
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FD-Uq-1e0">
                                 <rect key="frame" x="10" y="181" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="r50-l0-Y7U"/>
                                 </connections>
@@ -75,7 +75,7 @@
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biT-rP-Ena">
                                 <rect key="frame" x="10" y="430" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="GHf-O5-IL9"/>
                                 </connections>
@@ -83,7 +83,7 @@
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHc-ZO-xIZ">
                                 <rect key="frame" x="10" y="306" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="nYX-dw-k3b"/>
                                 </connections>
@@ -91,7 +91,7 @@
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekO-ue-Dow">
                                 <rect key="frame" x="137" y="306" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="hhm-DV-6w6"/>
                                 </connections>
@@ -99,7 +99,7 @@
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxN-V4-HaX">
                                 <rect key="frame" x="259" y="306" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="ldw-Gz-s1X"/>
                                 </connections>
@@ -107,7 +107,7 @@
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4q8-xd-abH">
                                 <rect key="frame" x="259" y="431" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="B4B-7N-Gna"/>
                                 </connections>
@@ -115,7 +115,7 @@
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64G-HL-0z0">
                                 <rect key="frame" x="137" y="431" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="IyC-wV-kiD"/>
                                 </connections>
@@ -123,7 +123,7 @@
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSw-Nx-p1R">
                                 <rect key="frame" x="259" y="181" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="LUk-yk-Bgu"/>
                                 </connections>
@@ -131,7 +131,7 @@
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LjF-Gk-DFp">
                                 <rect key="frame" x="137" y="181" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pressButton:" destination="zBG-3y-SRN" eventType="touchUpInside" id="kMZ-op-h4s"/>
                                 </connections>
@@ -164,11 +164,11 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m8U-7g-6V6" id="hNK-Bh-Qe7">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lmm-gf-fSd">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -229,6 +229,5 @@
     </scenes>
     <resources>
         <image name="board.png" width="744" height="783"/>
-        <image name="cross.png" width="214" height="214"/>
     </resources>
 </document>
